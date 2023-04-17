@@ -1,0 +1,1110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Paleta de colores */
+/* Tipo de letra */
+body {
+  background-color: #f4f4f9ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+}
+
+header {
+  background-color: #000000ff;
+  flex: 0 0 auto; 
+}
+
+
+.flexNavBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center; 
+}
+
+.logo {
+  width: 250px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: #f4f4f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.logo a {
+  text-decoration: none;
+  color: #f4f4f9ff; 
+}
+
+.logoImagen {
+  width: 45px;
+  height: 45px;
+  margin: 5px; 
+}
+
+.navBar {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: #f4f4f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap; 
+}
+  
+.navBar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; 
+}
+
+.navBar li button {
+  width: 120px;
+  cursor: pointer;
+}
+
+.navBar li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: #f4f4f9ff;
+  white-space: nowrap;
+  text-align: center; 
+}
+
+.navBar li a:hover {
+  color: rgb(183, 184, 184);
+  font-size: 27px; 
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+.carritoNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 65px;
+  height: 36px;
+  background-color: #f4f4f9ff;
+  border-radius: 10px;
+}
+
+.carritoNav:hover {
+  background-color: rgb(183, 184, 184);
+  transform: scale(1.03);
+  transition: all 0.7s ease-in-out;
+}
+
+.carritoNav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carritoNav a img {
+  height: 25px;
+  margin: 5px;
+  margin-right: 5px;
+}
+
+.cantidadCarrito {
+  color: #000000ff;
+  margin: 2px;
+  font-size: 23px;
+}
+
+.banner {
+  height: 210px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.banner img {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.brandBar {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+.brandBar li {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.brandBar li a {
+  padding: 3px; 
+}
+
+.brandImg {
+  width: 60px;
+  height: 30px; 
+}
+
+.brandImg:hover {
+  transform: scale(1.2); 
+}
+
+.buttons {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.buttons .cardButton {
+  width: 150px;
+  height: 50px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.botonesCarrito {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.botonesCarrito .cardButton {
+  width: 200px;
+  border-radius: 15px;
+  margin-top: 40px;
+  cursor: pointer
+}
+
+#modoOscuro {
+  border-radius: 10px;
+}
+
+#modoClaro {
+  border-radius: 10px;
+}
+
+#carritoClear {
+  background-color: #525352;
+}
+
+#confirmarCompra {
+  background-color: rgb(85, 86, 84);
+}
+
+
+main {
+  padding: 5px;
+  padding-bottom: 50px;
+  flex: 1 1 auto; 
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.tituloPrincipal {
+  color: #000000ff;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #000000ff;
+  font-size: 23px; 
+}
+
+
+.navBarBoot {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  white-space: nowrap; 
+}
+
+.navBarBoot nav a:hover {
+  color: rgb(122, 125, 123);
+  font-size: 27px; 
+}
+
+.navBarBoot ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+}
+
+.navBarBoot a {
+  text-decoration: none;
+  color: #f4f4f9ff; 
+}
+
+.logoBoot {
+  font-size: 25px;
+ }
+
+.qh1 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+ }
+
+
+.cardFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+
+.card {
+  background-color: white;
+  width: 260px;
+  height: 350px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.7s ease-in-out;
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.4);
+}
+  
+
+.cardImg {
+  text-align: center;
+  padding: 1px;
+  width: 250px;
+  height: 200px; 
+}
+
+
+.cardImg img {
+  width: 175px;
+  height: 195px;
+}
+
+.cardText {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #2f4550ff;
+  text-align: center;
+  margin: 6px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.cardPrice {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: #000000ff;
+  text-align: center;
+  margin: 6px; 
+}
+
+.cardButton {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(159, 161, 161);
+  color: #000000ff;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cardCarrito {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(119, 117, 117);
+  color: #000000ff;
+  font-size: 20px;
+  width: 170px;
+  height: 30px;
+  border-radius: 5%;
+  border-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCarrito:hover {
+  background-color: #d1cfcf;
+  transform: scale(0.9);
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+#carritoText {
+  width: 300px;
+  text-align: left;
+  font-size: 17px;
+}
+
+#carritoPrice {
+  width: 130px
+}
+
+#totalCarritoText {
+  font-family: "Bebas Neue", cursive;
+  width: 200px;
+  text-align: left;
+  font-size: 25px;
+}
+
+#totalCarritoVacio {
+  font-family: "Bebas Neue", cursive;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#totalCarritoPrice {
+  width: 130px;
+  color: #555454;
+}
+#totalCarritoPrice:hover{
+  color: #a2a3a4;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in-out;
+}
+
+#totalCarritoPrice a {
+  font-size: 18px;
+  text-decoration: none;
+  width: 130px;
+  color: #666565;
+}
+
+#totalCarrito {
+  margin-top: 30px;
+}
+
+#vaciarMensajes {
+  font-size: 15px;
+  height: 20px;
+  width: 180px;
+}
+
+.cardCarritoButton {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(84, 84, 84);
+  color: #000000ff;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cardCarritoButton:hover {
+  color: #e38787;
+  transform: scale(0.9);
+  transition: all 0.7s ease-in-out;
+}
+
+.cardCarritoButton2 {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(69, 69, 69);
+  color: #000000ff;
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  border-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer
+}
+
+.cardCarritoButton2:hover {
+  color: rgb(192, 241, 181);
+  transform: scale(0.9);
+  transition: all 0.7s ease-in-out;
+}
+
+/* Estilos de las cards del carrito */
+.cardFlexCarrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: no-wrap;
+}
+
+.cardHorizontal {
+  background-color: white;
+  width: 690px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+}
+
+
+.productBoxFlex {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  margin-right: 200px; 
+}
+
+.productBox div {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  text-align: center; 
+}
+
+.productBox:hover {
+  transform: scale(1.05); 
+}
+
+.productBox div p {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px; 
+}
+
+.qText p {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: rgb(10, 140, 140);
+  text-align: justify; 
+}
+
+.qText img {
+  margin: 10px;
+  width: 100%;
+ }
+
+.contactFlex {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px; 
+}
+
+.contactBox {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px; 
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.contactInfo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-style: dashed;
+  border-color: #8c8d8e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.contactInfo2 p {
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  color: #2f4550ff;
+  margin: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contactInfo p {
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  color: #2f4550ff;
+  margin: 10px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.contactForm {
+  font-family: "Bebas Neue", cursive;
+  color: #000000ff;
+  margin: 10px;
+  width: 600px; 
+}
+  .contactForm form h2 {
+    font-family: "Bebas Neue", cursive;
+    color: #000000ff; 
+  }
+  .contactForm form input, .contactForm form .consulta {
+    font-family: "Oswald", sans-serif;
+    color: #000000ff;
+    background-color: #d4d4da;
+    font-size: 15px;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+  }
+  .contactForm form .consulta{
+    height: 400px;
+    text-align: start; 
+  }
+  .contactForm form .buttonForm {
+    width: 90px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: #d4d4da; 
+    cursor: pointer;
+  }
+
+.contactForm form .buttonForm:hover {
+  background-color: #3d3d3d;
+}
+
+
+.map {
+  border-style: solid;
+  border-color: #000000ff; 
+}
+
+
+.product {
+  width: 100%;
+  display: grid;
+  margin: 20px;
+  margin-top: 80px;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". productPhoto productSpecs ."; 
+}
+
+.productSpecs {
+  grid-area: productSpecs;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.productPhoto {
+  margin: 10px;
+  margin-right: 40px;
+  height: 380px;
+  grid-area: productPhoto;
+  display: flex;
+  justify-content: right; 
+}
+
+.productTitle {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  margin-bottom: 10px; 
+}
+
+.productSubtitle {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  width: 90%;
+  color: #2f4550ff;
+  margin-bottom: 10px; 
+}
+
+.productFlex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px; 
+}
+
+.productPrice {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(20, 20, 20);
+  font-size: 32px;
+  width: 100px; 
+}
+
+.productButton {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(85, 86, 86);
+  color: #000000ff;
+  font-size: 25px;
+  height: 40px;
+  border-radius: 5%;
+  margin-left: 10px;
+  padding: 3px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none; 
+  cursor: pointer;
+}
+.productButton:hover{
+  background-color: #b7b7b7;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in-out;
+  
+}
+.productButton a {
+  text-decoration: none;
+  color: #000000ff;
+  cursor: pointer 
+}
+
+
+.productButtonSmall {
+  font-family: "Bebas Neue", cursive;
+  background-color: #5b5b5c;
+  color: #000000ff;
+  font-size: 25px;
+  height: 30px;
+  width: 25px;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.productButtonSmall:hover {
+  background-color: #c6c5c5;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.productSpecsTitle {
+  font-family: "Bebas Neue", cursive;
+  color: #000000ff;
+  font-size: 25px;
+ }
+
+
+.productSpecsBody {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #2f4550ff;
+  margin-bottom: 20px;
+ }
+
+
+.itemCountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+
+#inputProducto {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#inputCategoria {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#buscadorProducto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#buscadorCategoria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1500px) {
+  .cardFlex {
+    margin-left: 0px;
+    margin-right: 0px; 
+  } 
+}
+
+@media (max-width: 768px) {
+  .cardFlex {
+    margin-left: 0px;
+    margin-right: 0px; 
+  }
+
+  .footerBoxFlex {
+    gap: 25px; 
+  }
+
+  .product {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "productPhoto" "productSpecs"; 
+  }
+
+  .productPhoto {
+    margin: 10px;
+    margin-right: 0px;
+    justify-content: center;
+    width: 100%; 
+  }
+
+  .productSpecs {
+    justify-content: center;
+    margin: 20px;
+    width: 100%; 
+  }
+
+  .productSubtitle {
+    width: 90%; 
+  } 
+}
+
+@media (max-width: 576px) {
+  /* HEADER */
+
+  .navBar li {
+    width: 100%; 
+  }
+  .logo {
+    width: 100%;
+    border-style: solid;
+    border-top: #000000ff;
+    border-left: #000000ff;
+    border-right: #000000ff;
+    margin-bottom: 10px; 
+  }
+  .brandBar, .banner {
+    display: none; 
+  }
+
+  /* CARDS */
+  .cardFlex {
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  .productBoxFlex {
+    margin-left: 0px;
+    margin-right: 0px; 
+  }
+
+  /* FORM */
+  .contactFlex {
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  .contactForm {
+    width: 100%; 
+  }
+    .contactForm form input, .contactForm form .consulta, .contactForm form .consulta {
+      width: 100%; 
+    }
+  .contactBox {
+    margin: 10px; 
+  }
+    .contactBox iframe {
+      width: 100%; 
+    }
+
+  /* Producto */
+  .product {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "productPhoto" "productSpecs";
+   }
+  .productPhoto {
+    margin: 10px;
+    margin-right: 0px;
+    justify-content: center;
+    width: 100%; 
+  }
+  .productSpecs {
+    justify-content: center;
+    margin: 20px;
+    width: 100%; 
+  }
+  .productSubtitle {
+    width: 90%; 
+  }
+
+  /* FOOTER */
+  .footerBoxFlex {
+    height: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "footerBox1" "footerBox2" "footerBox3";
+   } 
+
+  .swiper {
+    display: none;
+  }
+
+  .swiper-slide {
+    display:none;
+  }
+
+  .swiper-slide img {
+    display: none;
+  }
+
+  .buttons {
+    flex-direction: column;
+    padding: 0px;
+    cursor: pointer
+  }
+
+  .buttons .cardButton {
+    margin: 5px;
+    width: 80%;
+    height: 40px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+  }
+
+  .cardFlexCarrito {
+    flex-direction: column;
+  }
+
+  .cardText {
+    height: 40px;
+    margin: 0px;
+    font-size: 18px;
+  }
+
+  #carritoPrice {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardHorizontal {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .botonesCarrito {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #confirmarCompra {
+    margin-top: 0px;
+    margin: 5px;
+  }
+
+  #carritoClear {
+    margin-top: 0px;
+    margin: 5px;
+  }
+
+}
+
+.link {
+  text-decoration: none;
+}
+
+.swal-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.swal-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.swal-button {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(49, 224, 128);
+  color: #000000ff;
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  border-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer
+}
+
+.swal-button:hover {
+  transform: scale(1.05);
+  background-color: rgb(49, 224, 128) !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin: 1rem;
+}
+
+hr{
+  background-color: #406E8E;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+
+.col a{
+  padding: 0.8rem;
+}
+
+.col a img:hover{
+  transform: scale(0.8);
+  transition: all 0.7s ease-in-out;
+}
+
+.col8 ul{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem; 
+}
+
+.col8 ul li:hover{
+  transform: scale(0.9);
+  transition: all 0.7s ease-in-out;
+}
+
+
+.col4 p{
+  display: flex;
+  justify-content: right;
+  margin-top: 1rem;
+}
+
+.col4 p img{
+  display: flex;
+  justify-content: right;
+  margin-bottom: auto;
+}
+  
+div.col4{
+  display: inline-block; 
+  margin-left: auto;
+}
+
+.nav-item{
+  color: gray;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.imgfooter{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+
+
+
